@@ -1,0 +1,54 @@
+<!--[if IE ]>
+#ie
+  = image_tag 'ie.png'
+  .aside
+    %h1 Meet your browser
+    %p He's one ugly son of a gun, eh? His soul is as black as the night too.
+    %p It's ok though, there's 4 great browsers for you to choose from and I'm sure you will love using them.
+    %ul
+      <li><a href="https://www.google.com/chrome" target="_blank"><img src="img/chrome.png">Chrome</a></li>
+      <li><a href="http://www.mozilla.org/en-US/firefox/fx/" target="_blank"><img src="img/firefox.png">Firefox</a></li>
+      <li><a href="http://www.apple.com/safari/" target="_blank"><img src="img/safari.png">Safari</a></li>
+      <li><a href="http://www.opera.com/" target="_blank"><img src="img/opera.png">Opera</a></li>
+
+    %h2 At Work?
+    %p If some evil bureaucratic IT department is holding you against your will there's an answer for that too.</p>
+    %p
+      = link_to 'Chrome frame', 'http://code.google.com/chrome/chromeframe/'
+      doesn't require administrator privileges to install and will make Internet Explorer use Google Chrome under the hood.
+    %p Happy browsing, the web is about to get a whole lot better for you.
+
+<![endif]-->
+<!--[if (!IE)]> -->
+
+.content
+  .intro
+    %p Hello. I'm a front end web developer living in Melbourne, Australia.  I love the web, design, good coffee &amp; working along side talented people I can learn from.
+  %p I wrote <a href="/standards/">front end standards</a> for <a href="http://www.pageuppeople.com/">PageUp People</a> &amp; built an <a href="/super_fun/">HTML5 game</a> using SVG &amp; Canvas.
+  %p The last two sites I had the pleasure of crafting are <a href="http://inspire9.com/">Inspire9</a> and <a href="http://hellosundaymorning.org/">Hello Sunday Morning</a>
+  %p I like <a href="http://gettingreal.37signals.com/">Getting Real</a> with web applications using open standards HTML, CSS, Javascript <span class="amp">&amp;</span> SVG.
+  %p I work at the best office in Melbourne, <a href="http://www.inspire9.com.au/">Inspire9</a>, Richmond where we build Rails apps for startups.
+  %p The web will win. Web pages and applications should be made accessible to everyone, on any modern browser or device using open standards.
+
+.aside
+  .frame.media= image_tag 'me.jpg'
+  #promo
+    %p If you have a project in mind and need some front-end development work done please do <a href="mailto:markbrown4@gmail.com">get in touch</a>.
+
+.tweets
+  %p
+    %i The views expressed here represent me and my employer <a href="https://twitter.com/markbrown4">@markbrown4</a></i>
+  %ul#tweets
+
+<!-- <![endif]-->
+- content_for :js do
+  :plain
+    <script>
+    var url = 'http://api.getmytweets.co.uk/?screenname=markbrown4&limit=10';
+    get(url, function(data) {
+      var json = JSON.parse(data);
+      var html = JST['templates/tweets'](json);
+      console.log(html);
+      document.getElementById('tweets').innerHTML = html;
+    });
+    </script>

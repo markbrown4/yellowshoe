@@ -1,0 +1,90 @@
+%h1 Travel
+%p.intro This isn't so much a trophy as a place to remember places I've been.  I am extremely grateful for the opportunity to see the world, it is one of the greatest privileges.
+#map.frame
+:plain
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAvSRok3TxWdr9hF2EH8SFAf59UmjTuK6A&sensor=true"></script>
+  <script>
+  var m = document.getElementById("map");
+  var map = new google.maps.Map(m, {
+    zoom: 2,
+    disableDefaultUI: true,
+    center: new google.maps.LatLng(3, 83),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+  var locations = [{
+    title: 'Melbourne',
+    pos: [-37.8131869, 144.9629796]
+  },{
+    title: 'Mildura',
+    pos: [-34.20630060, 142.13583210]
+  },{
+    title: 'Adelaide',
+    pos: [-34.92872640,138.59994530]
+  }, {
+    title: 'Sydney',
+    pos: [-33.873651, 151.2068896]
+  }, {
+    title: 'Gold Coast',
+    pos: [-28.0410141, 153.297505]
+  }, {
+    title: 'Cairns',
+    pos: [-16.9233991, 145.773851]
+  }, {
+    title: 'Perth',
+    pos: [-31.9528536, 115.8573389]
+  }, {
+    title: 'Tasmania',
+    pos: [-41.6851318, 145.9526516]
+  },{
+    title: 'Wellington',
+    pos: [-41.2864603, 174.776236]
+  },{
+    title: 'Grahamstown',
+    pos: [-33.30566, 26.52453]
+  },{
+    title: 'Singapore',
+    pos: [1.352083, 103.819836]
+  }, {
+    title: 'Kuala Lumpur',
+    pos: [3.139003, 101.686855]
+  },{
+    title: 'Batu Caves',
+    pos: [3.253582, 101.6697622]
+  },{
+    title: 'Penang',
+    pos: [5.2632341, 100.4846227]
+  },{
+    title: 'Langkawi',
+    pos: [6.3233, 99.8547239]
+  },{
+    title: 'Bangkok',
+    pos: [13.7234186, 100.4762319]
+  },{
+    title: 'Saigon',
+    pos: [10.8230989, 106.6296638]
+  },{
+    title: 'Hanoi',
+    pos: [21.0333333, 105.85]
+  },{
+    title: 'Ha Long Bay',
+    pos: [20.9711977, 107.0448069]
+  },{
+    title: 'Shanghai',
+    pos: [31.230393, 121.473704]
+  },{
+    title: 'Hangzhou',
+    pos: [30.274089, 120.155069]
+  },{
+    title: 'Beijing',
+    pos: [39.904214, 116.407413]
+  }];
+
+  for (var i=0, ii=locations.length; i<ii; i++) {
+    var l = locations[i];
+    var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(l.pos[0], l.pos[1]),
+      title: l.title
+    });
+    marker.setMap(map);
+  }
+  </script>

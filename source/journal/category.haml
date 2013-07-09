@@ -1,0 +1,18 @@
+---
+pageable: true
+per_page: 10
+---
+
+= partial 'journal/sidebar'
+#content
+  %h1= tagname
+  - page_articles.each do |article|
+    %article
+      %h2= link_to article.title, article
+      %p
+        %time= article.date.strftime('%b %d, %Y')
+      = intro article
+
+  %p.pagination
+    = link_to "Older &rarr;", next_page, class: 'next' if next_page
+    = link_to "&larr; Newer", prev_page, class: 'prev' if prev_page

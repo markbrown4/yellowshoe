@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><%= current_page.data.title || "Front end web development by Mark Brown. HTML, CSS &amp; Javascript" %></title>
+<meta name="description" content="<%= strip_tags(intro current_article).gsub "\n", "" %>">
+<%= favicon_tag 'favicon.ico' %>
+<%= stylesheet_link_tag "application" %>
+<body class"<%= page_classes %>">
+<div id="wrap">
+  <%= link_to image_tag('boot.png', id: 'boot'), '/' %>
+  <h1>Mark Brown</h1>
+  <%= partial 'nav' %>
+  <div id="main">
+    <%= partial 'journal/sidebar' %>
+    <div id="content">
+      <h1><%= current_article.title %></h1>
+      <p><time><%= current_article.date.strftime('%b %d, %Y') %></time></p>
+<div class="intro"><%= intro current_article %></div>
+<%= body current_article %>
+    </div>
+  </div>
+</div>
+<%= javascript_include_tag  "application" %>
+</body>
+</html>
+

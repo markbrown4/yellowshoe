@@ -1,0 +1,15 @@
+#aside
+  %h2 Recent entries
+  %ol
+    - blog.articles.sort_by{|a| - a.date.to_i }.slice(0,7).each do |article|
+      %li= link_to article.title, article
+  %h2 Categories
+  %ol
+    - blog.tags.each do |tag, articles|
+      %li= link_to tag, tag_path(tag)
+
+  %h2 Get in touch
+  %ol
+    %li= link_to 'markbrown4@gmail.com', 'mailto:markbrown4@gmail.com'
+    %li= link_to '@markbrown4', 'http://twitter.com/markbrown4'
+    %li= link_to 'Github', 'http://github.com/markbrown4'
