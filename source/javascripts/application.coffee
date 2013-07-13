@@ -15,3 +15,11 @@ window.formatTweet = (html)->
   html = html.replace /@([a-z0-9_]+)/gi, '<a href="http://twitter.com/$1">@$1</a>'
 
   html
+
+tweets = document.getElementById 'tweets'
+if tweets
+	url = 'http://api.getmytweets.co.uk/?screenname=markbrown4&limit=10';
+	get url, (data)->
+		json = JSON.parse data
+		html = JST['templates/tweets'] json
+		tweets.innerHTML = html

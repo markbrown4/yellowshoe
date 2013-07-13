@@ -22,8 +22,8 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
-# set :relative_links, true
-# activate :relative_assets
+set :relative_links, true
+activate :relative_assets
 
 configure :build do
   # activate :minify_css
