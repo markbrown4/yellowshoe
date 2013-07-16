@@ -13,13 +13,13 @@
   <h1>Mark Brown</h1>
   <%= partial 'nav' %>
   <div id="main">
-    <%= partial 'journal/sidebar' %>
     <div id="content">
       <h1><%= current_article.title %></h1>
       <p><time><%= current_article.date.strftime('%b %d, %Y') %></time></p>
 <div class="intro"><%= intro current_article %></div>
 <%= body current_article %>
     </div>
+    <%= partial 'journal/sidebar' %>
   </div>
 </div>
 <%= javascript_include_tag  "application" %>

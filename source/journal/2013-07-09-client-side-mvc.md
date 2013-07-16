@@ -66,6 +66,11 @@ Skimming through Backbone and jQuery it's easy to get a feel for how things are 
 1. [jQuery](http://code.jquery.com/jquery-2.0.3.js) - 8,880
 1. [Backbone](http://backbonejs.org/backbone.js) - 1,572
 
+### Mobile
+
+The best mobile experiences I have had online are ones with minimal JavaScript and CSS3.
+I know that devices will continue to improve and allow for more heavyweight applications but we're not there yet, the size and constant updating of the DOM will never be as fast as applications that focus on *less*.
+
 ## Code speaks
 
 Nicholas Zakas' presentation [Enough with the JavaScript already!](http://www.slideshare.net/nzakas/enough-withthejavascriptalready/24) got a lot of attention recently, one slide in particular resonated with me.  As rich web applications are developed the time spent on JS grows inproportionally to the rest of the application, I've seen it happen.
@@ -75,7 +80,7 @@ Keeping any complex web application maintainable is a difficult task, it require
 - Perhaps rendering HTML on the server is the simplest and best thing for an interaction.
 - Maybe a small targetted javascript library does just what you need.
 - Perhaps a component that initialises itself based on hooks in the HTML.
-- Maybe using REST will be more inefficient than it could be.
+- Maybe using strict REST will be more inefficient than it could be.
 - Hopefully tomorrow's templating language will be better than today's.
 
 There are so many small decisions to be made when crafting an application, you must remain in control over the code execution and be able to choose appropriate tools.  Frameworks that make too many of these decisions for you do away with flexibility.
