@@ -25,6 +25,8 @@ activate :directory_indexes
 set :relative_links, true
 activate :relative_assets
 
+page '/journal/feed.xml', layout: false
+
 configure :build do
   # activate :minify_css
   # activate :minify_javascript
