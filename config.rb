@@ -22,16 +22,15 @@ activate :blog do |blog|
 end
 
 activate :directory_indexes
-set :relative_links, true
 activate :relative_assets
 
 page '/journal/feed.xml', layout: false
 
 configure :build do
+  set :relative_links, true
   # activate :minify_css
   # activate :minify_javascript
   # activate :asset_hash
-  # set :http_path, "/Content/images/"
 end
 
 helpers do
