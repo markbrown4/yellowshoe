@@ -1,6 +1,0 @@
-<% for tweet in @tweets: %>
-<li>
-  <%- formatTweet tweet.response %>
-  <time><%= moment(tweet.tweet_date).fromNow() %></time>
-</li>
-<% end %>

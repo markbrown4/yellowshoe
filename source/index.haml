@@ -1,62 +1,19 @@
-<!--[if IE ]>
-#ie
-  = image_tag 'ie.png'
-  .aside
-    %h1 Meet your browser
-    %p He's one ugly son of a gun, eh? His soul is as black as the night too.
-    %p It's ok though, there's 4 great browsers for you to choose from and I'm sure you will love using them.
-    %ul
-      <li><a href="https://www.google.com/chrome" target="_blank"><img src="img/chrome.png">Chrome</a></li>
-      <li><a href="http://www.mozilla.org/en-US/firefox/fx/" target="_blank"><img src="img/firefox.png">Firefox</a></li>
-      <li><a href="http://www.apple.com/safari/" target="_blank"><img src="img/safari.png">Safari</a></li>
-      <li><a href="http://www.opera.com/" target="_blank"><img src="img/opera.png">Opera</a></li>
-
-    %h2 At Work?
-    %p If some evil bureaucratic IT department is holding you against your will there's an answer for that too.</p>
-    %p
-      = link_to 'Chrome frame', 'http://code.google.com/chrome/chromeframe/'
-      doesn't require administrator privileges to install and will make Internet Explorer use Google Chrome under the hood.
-    %p Happy browsing, the web is about to get a whole lot better for you.
-
-<![endif]-->
-<!--[if (!IE)]> -->
 
 .content
   .intro
     %p Hello. I'm a front end web developer from Melbourne, Australia.  I love the web, design, good coffee &amp; working along side talented people I can learn from.
   %p A long time ago I wrote <a href="/standards/">front end standards</a> for <a href="http://www.pageuppeople.com/">PageUp People</a> &amp; built an <a href="/super_fun/">HTML5 game</a> using SVG &amp; Canvas.
-  %p I joined <a href="http://www.adioso.com/">Adioso</a> in October 2013, it's fun and without a doubt the best way to find flights for flexible travelers.
+  %p I joined <a href="http://www.adioso.com/">Adioso</a> in October 2013, it's fun and also happens to be the best way to find flights for flexible travelers.
   %p Before that I had the pleasure of crafting <a href="http://inspire9.com/">Inspire9</a> and <a href="http://hellosundaymorning.org/">Hello Sunday Morning</a> with the exceptionally talented <a href="http://development.inspire9.com/">Inspire9 Development</a> team using Ruby on Rails.
   %p I like <a href="http://gettingreal.37signals.com/">Getting Real</a> with web applications using open standards HTML, CSS, Javascript <span class="amp">&amp;</span> SVG.
-  %p For the last few years I've enjoyed working at the best office in Melbourne, <a href="http://www.inspire9.com.au/">Inspire9</a>, in Richmond.  It's free to drop in and try out the space, if you need a place to work online for a day say hello to the friendly folk there.
+  %p For the last few years I've enjoyed working at the best office in Melbourne, <a href="http://www.inspire9.com.au/">Inspire9</a> in Richmond.  It's free to drop in and try out the space, if you need a place to work online for a day say hello to the friendly folk there.
   %p In February 2014 I moved to Silay City in the Philippines for eight months, for fun mostly.
   %p The web will win. Web pages and applications should be made accessible to everyone, on any modern browser or device using open standards.
 
 .aside
   .frame.media= image_tag 'me.jpg'
   #promo
-    %p I'm working full time for Adioso at the moment, feel free to <a href="mailto:markbrown4@gmail.com">get in touch</a> though.
+    %p I'm currently living in Silay City, Negros Occidental, Philippines and working full time for Adioso.
+    %p Feel free to <a href="mailto:markbrown4@gmail.com">get in touch</a>.
     = # %p If you have a project in mind and need some front-end development work done please do <a href="mailto:markbrown4@gmail.com">get in touch</a>
-  #adioso-widget
-
-.tweets
-  %p
-    %i The views expressed here represent me and my employer <a href="https://twitter.com/markbrown4">@markbrown4</a></i>
-  %ul#tweets
-
-<!-- <![endif]-->
-- content_for :js do
-  :plain
-    <script type="text/javascript" src="http://adioso.com/media/compiled/js/widget.js"></script>
-    <script type="text/javascript">
-    Adioso.widget({
-      id: 'adioso-widget',
-      destination: 'Melbourne'
-    });
-    var url = 'http://api.getmytweets.co.uk/?screenname=markbrown4&limit=10';
-    get(url, function(data) {
-      var json = JSON.parse(data);
-      var html = JST['templates/tweets'](json);
-      document.getElementById('tweets').innerHTML = html;
-    });
-    </script>
+  .tweets
