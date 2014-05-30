@@ -8,7 +8,7 @@ layout: cv.haml
 I'm passionate about designing and building high quality web sites &amp; applications using open standards.  I enjoy teaching others and working collaboratively with talented people.
 
 Currently I am working with <a href="http://www.adioso.com/">Adioso</a> as a front-end developer, a place where you can find the flights to anywhere in the world.
-In 2012 I began freelance work at <a href="http://inspire9.com/">Inspire9</a> where I joined the amazingly talented bunch at <a href="http://development.inspire9.com/">Inspire9's development agency</a> and built Rails applications for a year becoming a <em>much</em> better developer, it was the most satisfying work of my career. <br>Before that, I was designing and building things at <a href="http://www.pageuppeople.com/">PageUp People</a>, the leading Australian talent management software provider.  I have been working on the web professionally for over 7 years.
+In 2012 I began freelance work at <a href="http://inspire9.com/">Inspire9</a> where I joined the amazingly talented bunch at <a href="http://development.inspire9.com/">Inspire9's development agency</a> and built Rails applications for a year becoming a <em>much</em> better developer, it was the most satisfying work of my career. <br>Before that, I was designing and building things at <a href="http://www.pageuppeople.com/">PageUp People</a>, the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
 
 ## Personal Attributes
 - Ability to work both independently and collaboratively.
@@ -129,7 +129,7 @@ I also have professional experience developing with:
   <tr>
     <td>2007</td>
     <td>
-      <h3>Web developer <span class="sub">at</span> Web Managers Department, Swinburne University</h3>
+      <h3>Web developer <span class="sub">at</span> Swinburne University</h3>
       <p>During my final year of study I worked with Andrew Normand and Caroline Rojas in the Web Managers Department at Swinburne.  I rewrote the Administration Area (a CMS that enables publishers to update their individual sites) using object oriented PHP &amp; MySQL.</p>
       <p>I also made global semantic markup changes to the site including making all navigational menus lists.</p>
     </td>

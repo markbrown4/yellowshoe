@@ -139,6 +139,11 @@ div.intro {
     display: block;
     width: 100%;
   }
+  &.max {
+    float: none;
+    max-width: 100%;
+    margin-left: 0;
+  }
 }
 
 .amp {
@@ -324,11 +329,6 @@ article {
     margin: 0;
   }
 }
-#respond {
-  border-top: 5px solid rgba(100, 0, 0, 0.1);
-  margin-top: 30px;
-  padding-top: 30px;
-}
 #page {
   max-width: 750px;
   margin: 0 auto 50px;
@@ -343,8 +343,6 @@ article {
 #page #main { border: none; padding: 0 }
 #links { list-style: none; margin: 1em 0; padding: 0 }
 #links li { display: inline; margin: 0 5px 0 0; padding: 0 }
-#respond .comment { padding-left: 50px; }
-#respond .comment img { margin-left: -50px; float: left }
 
 .aside {
   float: right;
@@ -400,62 +398,4 @@ article {
   body { padding: 20px 0 0 }
   #page { padding: 50px 30px; margin: 10px }
   #main { padding: 50px 30px }
-}
-
-#ie {
-  width: 100%;
-  overflow: hidden;
-  text-align: left;
-  > img {
-    float: left;
-    margin-right: 20px;
-  }
-  .aside {
-    float: left;
-    width: 400px;
-  }
-  ul {
-    overflow: hidden;
-    width: 100%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    float: left;
-    margin: 0;
-    padding: 0;
-  }
-  img {
-    margin-bottom: 10px;
-  }
-  a {
-    float: left;
-    width: 97px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #333;
-    text-decoration: none;
-  }
-}
-
-.tweets {
-  clear: both;
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 2px solid rgba(100, 0, 0, 0.05);
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  li {
-    margin: 0 0 1em;
-  }
-  time {
-    font-size: 14px;
-    margin-left: 4px;
-    color: rgba(#000, .7);
-    font-style: normal;
-  }
 }
