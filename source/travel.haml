@@ -7,7 +7,7 @@
   var map = new google.maps.Map(m, {
     zoom: 2,
     disableDefaultUI: true,
-    center: new google.maps.LatLng(9, 48),
+    center: new google.maps.LatLng(10, 48),
     mapTypeId: google.maps.MapTypeId.ROADMAP
   });
   var locations = [{
@@ -220,6 +220,15 @@
   },{
     title: 'Tokyo',
     pos: [35.689487, 139.691706]
+  },{
+    title: 'Berlin',
+    pos: [52.520007, 13.404954]
+  },{
+    title: 'London',
+    pos: [51.507351, -0.127758]
+  },{
+    title: 'Bristol',
+    pos: [51.454513, -2.587910]
   }];
 
   for (var i=0, ii=locations.length; i<ii; i++) {

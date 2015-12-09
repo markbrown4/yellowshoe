@@ -7,8 +7,7 @@ layout: cv.haml
 
 I'm passionate about designing and building high quality web sites &amp; applications using open standards.  I enjoy teaching others and working collaboratively with talented people.
 
-Currently I am working with <a href="http://www.adioso.com/">Adioso</a> as a front-end developer, a place where you can find the flights to anywhere in the world.
-In 2012 I began freelance work at <a href="http://inspire9.com/">Inspire9</a> where I joined the amazingly talented bunch at <a href="http://development.inspire9.com/">Inspire9's development agency</a> and built Rails applications for a year becoming a <em>much</em> better developer, it was the most satisfying work of my career. <br>Before that, I was designing and building things at <a href="http://www.pageuppeople.com/">PageUp People</a>, the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
+Currently I am working with <a href="http://development.inspire9.com/">Inspire9 development</a> from the co-working space I've been a part of since 2012, primarily working on Rails applications with a focus on the front-end. I also worked with <a href="http://www.adioso.com/">Adioso</a> for two years and before that I was designing and building things at <a href="http://www.pageuppeople.com/">PageUp People</a>, the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
 
 ## Personal Attributes
 - Ability to work both independently and collaboratively.
@@ -25,7 +24,7 @@ High level of competency and experience in:
 - Ruby on Rails
 - Browser compatibility
 - HAML, SASS &amp; CoffeeScript
-- Good knowledge of important Javascript libraries
+- Thorough knowledge of important Javascript libraries
 - Designing user interfaces
 - Mobile web apps
 
@@ -77,7 +76,14 @@ I also have professional experience developing with:
 ## Employment History
 <table>
   <tr>
-    <td width="90">Oct 2013 - now</td>
+    <td width="90">2015 - now</td>
+    <td>
+      <h3>Front-end developer <span class="sub">at</span> Inspire9</h3>
+      <p>Back with the team at Inspire9 I've been working on <a href="http://tribesapp.com">Tribes</a>, <a href="http://ritualize.com">Ritualize</a> and <a href="http://yourgrocer.com.au">YourGrocer</a>.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="90">2013 - 2015</td>
     <td>
       <h3>Front-end developer <span class="sub">at</span> Adioso</h3>
       <p>Adioso is a flight search engine born and bred in Melbourne, it's the best way to find cheap flights for flexible travelers who don't have fixed dates in mind.</p>
