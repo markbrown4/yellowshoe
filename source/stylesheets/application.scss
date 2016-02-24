@@ -114,7 +114,15 @@ tr:last-child td { border: none }
   padding: 0;
 }
 #nav .active a { color: #333 }
-#boot { margin-bottom: 1em }
+#face {
+  border-radius: 100%;
+  margin-bottom: 1em;
+  width: 100px;
+  height: 100px;
+}
+#boot {
+  margin-bottom: 28px;
+}
 /* content */
 div.intro p {
   font-size: 18px;
@@ -335,7 +343,7 @@ article {
   margin: 0 auto 50px;
   padding: 70px 70px 150px;
   background: #fff;
-  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 3px 6px rgba(#000, .1);
   text-align: center;
 }
 #page h2 {
