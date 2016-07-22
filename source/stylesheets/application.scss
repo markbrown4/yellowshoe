@@ -5,12 +5,12 @@ html {
 }
 body {
   margin: 0;
-  color: #333;
-  font-family: "Times New Roman",Times,Cambria,serif;
+  color: rgba(#000, .8);
+  font-family: Calluna,serif;
   font-size: 16px;
   -webkit-text-size-adjust: none; /* Prevent font scaling in landscape */
   line-height: 22px;
-  background: #F4EFEB image-url('tile.jpg');
+  background: #F6F8F8;
   padding: 40px 0;
 }
 a {
@@ -23,7 +23,7 @@ h1 a {
 img { border: none }
 a:hover { color: #205f82 }
 h1, h2, h3 {
-  font-family: Palatino,"Palatino Linotype","Book Antiqua",serif;
+  font-family: Calluna,serif;
   font-size: 35px;
   font-weight: normal;
   line-height: 45px;
@@ -61,7 +61,7 @@ ul {
   padding: 0;
 }
 ol li {
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px dashed #d1d9db;
   padding: 5px 0;
 }
 textarea { width: 100% }
@@ -97,8 +97,8 @@ tr:last-child td { border: none }
   text-align: left;
   background: rgba(255,255,255,.4);
   padding: 60px 40px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #d1d9db;
+  border-bottom: 1px solid #d1d9db;
   overflow: hidden;
   zoom: 1;
 }
@@ -130,12 +130,13 @@ div.intro p {
   line-height: 26px;
 }
 div.intro {
-  border-bottom: 2px solid rgba(100,0,0,.05);
+  border-bottom: 2px solid rgba(#d1d9db, .5);
   margin-bottom: 1em;
 }
 .intro p:first-child:first-letter {
+  font-family: serif;
   float: left;
-  font-size: 55px;
+  font-size: 53px;
   line-height: 36px;
   margin: 8px 7px 0 0;
 }
@@ -183,10 +184,10 @@ div.intro {
 .frame {
   background: #fff;
   padding: 7px;
-  box-shadow: 0 1px 0 rgba(127, 121, 108, 0.4), 0 1px 3px rgba(127, 121, 108, 0.2);
+  box-shadow: 0 1px 0 rgba(127, 121, 108, 0.3), 0 1px 2px rgba(127, 121, 108, 0.2);
   position: relative;
   margin-bottom: 1em;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 .frame img {
   width: 100%;

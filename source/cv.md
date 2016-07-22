@@ -20,11 +20,11 @@ High level of competency and experience in:
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 - Ruby on Rails
 - Browser compatibility
 - HAML, SASS &amp; CoffeeScript
-- Thorough knowledge of important Javascript libraries
+- Thorough knowledge of important JavaScript libraries
 - Designing user interfaces
 - Mobile web apps
 

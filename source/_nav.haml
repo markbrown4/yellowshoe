@@ -1,7 +1,7 @@
 %ul#nav
   %li{ class: ("active" if current_page.path == 'index.html') }= link_to 'About', '/'
   %li{ class: ("active" if current_page.path.include? 'journal') }= link_to 'Journal', '/journal'
-  %li{ class: ("active" if current_page.path == 'talks.html') }= link_to 'Talks', '/talks'
+  %li{ class: ("active" if current_page.path == 'sharing.html') }= link_to 'Sharing', '/sharing'
   %li{ class: ("active" if current_page.path == 'philosophy.html') }= link_to 'Philosophy', '/philosophy'
   %li{ class: ("active" if current_page.path == 'cv.html') }= link_to 'CV', '/cv'
-  %li{ class: ("active" if current_page.path == 'travel.html') }= link_to 'Travel', '/travel'
+  -# %li{ class: ("active" if current_page.path == 'travel.html') }= link_to 'Travel', '/travel'
