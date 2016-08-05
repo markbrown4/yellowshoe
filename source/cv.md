@@ -5,37 +5,53 @@ layout: cv.haml
 
 ## Summary
 
-I'm passionate about designing and building high quality web sites &amp; applications using open standards.  I enjoy teaching others and working collaboratively with talented people.
+I'm passionate about building rich web applications and mobile apps with JavaScript.  I enjoy teaching others and working collaboratively with talented people.  Having worked with many small to medium sized teams over the years I'm comfortable working across the full stack of multiple platforms(Rails, Django, .NET and PHP), my area of expertise is the front-end.
 
-Currently I am working with <a href="http://development.inspire9.com/">Inspire9 development</a> from the co-working space I've been a part of since 2012, primarily working on Rails applications with a focus on the front-end. I also worked with <a href="http://www.adioso.com/">Adioso</a> for two years and before that I was designing and building things at <a href="http://www.pageuppeople.com/">PageUp People</a>, the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
+My last role was with [Inspire9 Development](http://development.inspire9.com/), a development agency that worked with early-stage startups and bootstrapped their own app for managing co-working spaces [Tribes](http://www.pageuppeople.com/).  I also worked with [Adioso](http://www.adioso.com/) for two years and [PageUp People](http://www.pageuppeople.com/) for four years - the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
+
+I write working software with simple and readable code that's well tested and produce engaging user interfaces.
+
+I'm also an author of Sitepoint's [JavaScript channel](https://www.sitepoint.com/author/mbrown/).
 
 ## Personal Attributes
 - Ability to work both independently and collaboratively.
 - Highly self motivated requiring very little supervision.
-- Always willing to learn and loves being challenged.
+- Always learning and loves being challenged.
+- Regularly shares at community events.
 
 ## Technical skills
 
 High level of competency and experience in:
 
-- HTML
-- CSS
-- JavaScript
-- Ruby on Rails
-- Browser compatibility
-- HAML, SASS &amp; CoffeeScript
-- Thorough knowledge of important JavaScript libraries
-- Designing user interfaces
-- Mobile web apps
+- HTML, CSS &amp; JavaScript: The three pillars of the web
+- Thorough knowledge of important JavaScript libraries:
+  - jQuery, Underscore, Lodash
+  - Backbone, Angular, React
+  - Cordova, Ionic, React Native
+  - D3, Raphael, Three.js
+- Build tools:
+  - Webpack, Browserify, Gulp, JSPM
+- TDD with Mocha, Chai &amp; Sinon
+- Integration testing: RSpec, Cucumber, PhantomJS
+- Precompilers: HAML, SASS, CoffeeScript and ES6
+- Full stack development with Ruby on Rails
+- Accessibility &amp; browser compatibility
+- Responsive mobile web apps
+- Hybrid / native apps with Cordova and React Native.
+- Static site generators: Middleman and Jekyll
 
-I also have professional experience developing with:
+I also have professional experience working with:
 
-- Canvas &amp; SVG
+- CI tools: Travis, Bugsnag
+- Google App Engine
+- AWS and S3
+- Docker
 - Django &amp; Python
-- PHP
 - .NET
+- PHP
 - SQL
-- Photoshop &amp; Illustrator
+- Canvas &amp; SVG
+- Photoshop, Illustrator & Sketch
 
 ## Education
 <table>
@@ -79,21 +95,33 @@ I also have professional experience developing with:
     <td width="90">2015 - now</td>
     <td>
       <h3>Front-end developer <span class="sub">at</span> Inspire9</h3>
-      <p>Back with the team at Inspire9 I've been working on <a href="http://tribesapp.com">Tribes</a>, <a href="http://ritualize.com">Ritualize</a> and <a href="http://yourgrocer.com.au">YourGrocer</a>.</p>
+      <p>
+        Back with the team at Inspire9 I've been working on
+        [Tribes](http://tribesapp.com),
+        [Tribes Kiosk](https://itunes.apple.com/us/app/tribes-kiosk/id978922131),
+        [Tribes Bookings](https://itunes.apple.com/us/app/tribes-bookings/id1093938360),
+        [Ritualize](http://ritualize.com),
+        [YourGrocer](http://yourgrocer.com.au),
+        [LaunchVic](http://launchvic.org/)
+        and
+        [PWC's Open Innovation Platform](https://openinnovation.com.au/).
+      </p>
     </td>
   </tr>
   <tr>
     <td width="90">2013 - 2015</td>
     <td>
       <h3>Front-end developer <span class="sub">at</span> Adioso</h3>
-      <p>Adioso is a flight search engine born and bred in Melbourne, it's the best way to find cheap flights for flexible travelers who don't have fixed dates in mind.</p>
+      <p>Adioso is a flight search engine born and bred in Melbourne, it's the best way to find cheap flights for flexible travellers who don't have fixed dates in mind.</p>
+      <p>[Adioso](http://adioso.com/), [Volantio](http://www.volantio.com/), [Fly to your friends](http://adioso.com/flytoyourfriends/)
     </td>
   </tr>
   <tr>
     <td width="90">2013</td>
     <td>
       <h3>Web developer <span class="sub">at</span> Culture Amp</h3>
-      <p>3 month contract building out a self-service platform where clients can configure their accounts for Murmur, an employee engagement surveying tool with analytics.</p>
+      <p>I built out a self-service platform where clients could configure their accounts for Murmur, an employee engagement surveying tool with analytics.</p>
+      <p>[CultureAmp](https://www.cultureamp.com/)
     </td>
   </tr>
   <tr>
@@ -101,7 +129,7 @@ I also have professional experience developing with:
     <td>
       <h3>Front end developer <span class="sub">at</span> Inspire9</h3>
       <p>Building Rails applications with a small super-talented team &amp; learning lots.</p>
-      <p>Highlights are building the <a href="http://inspire9.com/">Inspire9 Community</a> and <a href="http://development.inspire9.com/">Inspire9 Development</a> sites, <a href="http://hellosundaymorning.org/">Hello Sunday Morning</a> and <a href="http://obsurfation.com/">Obsurfation</a>.</p>
+      <p>Highlights are building the <a href="http://inspire9.com/">Inspire9 Community</a> and <a href="http://development.inspire9.com/">Inspire9 Development</a> sites, <a href="https://hellosundaymorning.org/">Hello Sunday Morning</a> and <a href="http://obsurfation.com/">Obsurfation</a>.</p>
     </td>
   </tr>
   <tr>
@@ -157,8 +185,10 @@ I also have professional experience developing with:
 </table>
 
 ## Personal Skills
+
 Working as a tutor in web development subjects at Swinburne University has developed my listening and teaching skills.
 I'm creative, a good problem solver and a life long learner.
 
 ## Interests and hobbies
-Guitar, singing, cooking, vector graphics, handstands and bike riding.
+
+Guitar, singing, cooking, yoga, vector graphics, handstands and bike riding.
