@@ -29,23 +29,25 @@ High level of competency and experience in:
   - Backbone, Angular, React
   - Cordova, Ionic, React Native
   - D3, Raphael, Three.js
-- Build tools:
-  - Webpack, Browserify, Gulp, JSPM
+- Git, Github
+- Build tools: Webpack, Browserify, Gulp, JSPM
 - TDD with Mocha, Chai &amp; Sinon
 - Integration testing: RSpec, Cucumber, PhantomJS
 - Precompilers: HAML, SASS, CoffeeScript and ES6
 - Full stack development with Ruby on Rails
 - Accessibility &amp; browser compatibility
 - Responsive mobile web apps
-- Hybrid / native apps with Cordova and React Native.
+- Hybrid web apps with Cordova and Ionic
+- Android and iOS apps with React Native
 - Static site generators: Middleman and Jekyll
 
 I also have professional experience working with:
 
 - CI tools: Travis, Bugsnag
-- Google App Engine
-- AWS and S3
+- Heroku, Google App Engine, AWS and S3
+- Now, Github Pages
 - Docker
+- Node.js
 - Django &amp; Python
 - .NET
 - PHP
