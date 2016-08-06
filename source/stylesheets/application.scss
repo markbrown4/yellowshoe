@@ -420,3 +420,19 @@ article {
   #page { padding: 50px 30px; margin: 10px }
   #main { padding: 50px 30px }
 }
+
+.page-break-before {
+  page-break-before: always;
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+  #page {
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 100%;
+    box-shadow: none;
+  }
+}

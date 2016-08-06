@@ -7,19 +7,20 @@ layout: cv.haml
 
 I'm passionate about building rich web applications and mobile apps with JavaScript.  I enjoy teaching others and working collaboratively with talented people.  Having worked with many small to medium sized teams over the years I'm comfortable working across the full stack of multiple platforms(Rails, Django, .NET and PHP), my area of expertise is the front-end.
 
-My last role was with [Inspire9 Development](http://development.inspire9.com/), a development agency that worked with early-stage startups and bootstrapped their own app for managing co-working spaces [Tribes](http://www.pageuppeople.com/).  I also worked with [Adioso](http://www.adioso.com/) for two years and [PageUp People](http://www.pageuppeople.com/) for four years - the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
+My last role was with [Inspire9 Development](http://development.inspire9.com/), a development agency that worked with early-stage startups and bootstrapped their own app for managing co-working spaces called [Tribes](http://www.pageuppeople.com/).  I also worked with [Adioso](http://www.adioso.com/) for two years and [PageUp People](http://www.pageuppeople.com/) for four years - the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
 
-I write working software with simple and readable code that's well tested and produce engaging user interfaces.
+I build working software with simple readable code that's well tested and produce engaging user interfaces.
 
 I'm also an author of Sitepoint's [JavaScript channel](https://www.sitepoint.com/author/mbrown/).
 
 ## Personal Attributes
+
 - Ability to work both independently and collaboratively.
 - Highly self motivated requiring very little supervision.
 - Always learning and loves being challenged.
 - Regularly shares at community events.
 
-## Technical skills
+<h2 class="page-break-before">Technical skills</h2>
 
 High level of competency and experience in:
 
@@ -31,10 +32,10 @@ High level of competency and experience in:
   - D3, Raphael, Three.js
 - Git, Github
 - Build tools: Webpack, Browserify, Gulp, JSPM
-- TDD with Mocha, Chai &amp; Sinon
-- Integration testing: RSpec, Cucumber, PhantomJS
-- Precompilers: HAML, SASS, CoffeeScript and ES6
+- TDD with Mocha, Chai, Sinon &amp; jsdom
+- Integration testing with RSpec, Cucumber &amp; PhantomJS
 - Full stack development with Ruby on Rails
+- Pre-compilers: HAML, SASS, CoffeeScript, ES6
 - Accessibility &amp; browser compatibility
 - Responsive mobile web apps
 - Hybrid web apps with Cordova and Ionic
@@ -91,22 +92,31 @@ I also have professional experience working with:
   </tr>
 </table>
 
-## Employment History
+<h2 class="page-break-before">Employment History</h2>
 <table>
+  <!-- <tr>
+    <td width="90">2016 - now</td>
+    <td>
+      <h3>Front-end developer <span class="sub">with</span> Equal Experts</h3>
+      <p>
+        Contract work with .
+      </p>
+    </td>
+  </tr> -->
   <tr>
-    <td width="90">2015 - now</td>
+    <td width="90">2015 - 2016</td>
     <td>
       <h3>Front-end developer <span class="sub">at</span> Inspire9</h3>
       <p>
         Back with the team at Inspire9 I've been working on
-        [Tribes](http://tribesapp.com),
-        [Tribes Kiosk](https://itunes.apple.com/us/app/tribes-kiosk/id978922131),
-        [Tribes Bookings](https://itunes.apple.com/us/app/tribes-bookings/id1093938360),
-        [Ritualize](http://ritualize.com),
-        [YourGrocer](http://yourgrocer.com.au),
-        [LaunchVic](http://launchvic.org/)
+        <a href="http://tribesapp.com">Tribes</a>,
+        <a href="https://itunes.apple.com/us/app/tribes-kiosk/id978922131">Tribes Kiosk</a>,
+        <a href="https://itunes.apple.com/us/app/tribes-bookings/id1093938360">Tribes Bookings</a>,
+        <a href="http://ritualize.com">Ritualize</a>,
+        <a href="http://yourgrocer.com.au">YourGrocer</a>,
+        <a href="http://launchvic.org/">LaunchVic</a>
         and
-        [PWC's Open Innovation Platform](https://openinnovation.com.au/).
+        <a href="https://openinnovation.com.au/">PWC's Open Innovation Platform</a>.
       </p>
     </td>
   </tr>
@@ -115,7 +125,7 @@ I also have professional experience working with:
     <td>
       <h3>Front-end developer <span class="sub">at</span> Adioso</h3>
       <p>Adioso is a flight search engine born and bred in Melbourne, it's the best way to find cheap flights for flexible travellers who don't have fixed dates in mind.</p>
-      <p>[Adioso](http://adioso.com/), [Volantio](http://www.volantio.com/), [Fly to your friends](http://adioso.com/flytoyourfriends/)
+      <p><a href="http://adioso.com/">Adioso</a>, <a href="http://www.volantio.com/">Volantio</a>, <a href="http://adioso.com/flytoyourfriends/">Fly to your friends</a>
     </td>
   </tr>
   <tr>
@@ -123,7 +133,7 @@ I also have professional experience working with:
     <td>
       <h3>Web developer <span class="sub">at</span> Culture Amp</h3>
       <p>I built out a self-service platform where clients could configure their accounts for Murmur, an employee engagement surveying tool with analytics.</p>
-      <p>[CultureAmp](https://www.cultureamp.com/)
+      <p><a href="https://www.cultureamp.com/">CultureAmp</a>
     </td>
   </tr>
   <tr>
