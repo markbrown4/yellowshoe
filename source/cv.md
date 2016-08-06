@@ -92,7 +92,8 @@ I also have professional experience working with:
   </tr>
 </table>
 
-<h2 class="page-break-before">Employment History</h2>
+## Employment History
+
 <table>
   <!-- <tr>
     <td width="90">2016 - now</td>

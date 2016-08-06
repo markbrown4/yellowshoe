@@ -1,0 +1,29 @@
+<!doctype html>
+%html{ lang: "en" }
+  %head
+    %meta{ charset: "utf-8" }
+    %meta{ name: "viewport", content: "width=device-width, initial-scale=1" }
+    %title= current_page.data.title || "Front end web development by Mark Brown. HTML, CSS &amp; JavaScript"
+    %meta{ name: "description", content: current_page.data.description || "Front end web development by Mark Brown. HTML, CSS &amp; JavaScript" }
+    = favicon_tag 'favicon.ico'
+    = stylesheet_link_tag "application"
+    :plain
+      <style media="screen">
+      body {
+        background: #fff;
+      }
+      #page {
+        margin: 0 auto;
+        padding: 30px;
+        max-width: 100%;
+        box-shadow: none;
+      }
+      </style>
+  %body{ class: page_classes }
+    #page
+      = link_to image_tag('me.jpg', id: 'face'), '/'
+      %h1 Mark Brown
+      %p Melbourne, Australia
+
+      #main
+        = yield

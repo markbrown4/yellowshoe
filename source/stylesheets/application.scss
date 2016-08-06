@@ -424,15 +424,3 @@ article {
 .page-break-before {
   page-break-before: always;
 }
-
-@media print {
-  body {
-    background: #fff;
-  }
-  #page {
-    margin: 0 auto;
-    padding: 30px;
-    max-width: 100%;
-    box-shadow: none;
-  }
-}
