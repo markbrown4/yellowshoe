@@ -9,7 +9,7 @@ I'm passionate about building rich web applications and mobile apps with JavaScr
 
 My last role was with [Inspire9 Development](http://development.inspire9.com/), a development agency that worked with early-stage startups and bootstrapped their own app for managing co-working spaces called [Tribes](http://www.pageuppeople.com/).  I also worked with [Adioso](http://www.adioso.com/) for two years and [PageUp People](http://www.pageuppeople.com/) for four years - the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
 
-I build working software with simple readable code that's well tested and produce engaging user interfaces.
+I build working software with simple readable code that's well tested.
 
 I'm also an author of Sitepoint's [JavaScript channel](https://www.sitepoint.com/author/mbrown/).
 
@@ -25,28 +25,21 @@ I'm also an author of Sitepoint's [JavaScript channel](https://www.sitepoint.com
 High level of competency and experience in:
 
 - HTML, CSS &amp; JavaScript: The three pillars of the web
-- Thorough knowledge of important JavaScript libraries:
-  - jQuery, Underscore, Lodash
-  - Backbone, Angular, React
-  - Cordova, Ionic, React Native
-  - D3, Raphael, Three.js
-- Git, Github
-- Build tools: Webpack, Browserify, Gulp, JSPM
-- TDD with Mocha, Chai, Sinon &amp; jsdom
-- Integration testing with RSpec, Cucumber &amp; PhantomJS
 - Full stack development with Ruby on Rails
-- Pre-compilers: HAML, SASS, CoffeeScript, ES6
+- Thorough knowledge of important JavaScript libraries including:
+  - Backbone, Angular, React
+  - jQuery, Lodash, D3
+- Git
+- Unit and integration testing with JavaScript and Ruby
 - Accessibility &amp; browser compatibility
-- Responsive mobile web apps
-- Hybrid web apps with Cordova and Ionic
-- Android and iOS apps with React Native
-- Static site generators: Middleman and Jekyll
+- Responsive mobile web apps, hybrid and native approaches
+- Static site generators
 
 I also have professional experience working with:
 
-- CI tools: Travis, Bugsnag
-- Heroku, Google App Engine, AWS and S3
-- Now, Github Pages
+- Build tools and module bundlers
+- Continuous Integration tools
+- Heroku, AWS, Google Cloud Platform
 - Docker
 - Node.js
 - Django &amp; Python
@@ -108,17 +101,18 @@ I also have professional experience working with:
     <td width="90">2015 - 2016</td>
     <td>
       <h3>Front-end developer <span class="sub">at</span> Inspire9</h3>
+      <p>Inspire9 development make web apps for startups.</p>
       <p>
-        Back with the team at Inspire9 I've been working on
         <a href="http://tribesapp.com">Tribes</a>,
         <a href="https://itunes.apple.com/us/app/tribes-kiosk/id978922131">Tribes Kiosk</a>,
         <a href="https://itunes.apple.com/us/app/tribes-bookings/id1093938360">Tribes Bookings</a>,
         <a href="http://ritualize.com">Ritualize</a>,
         <a href="http://yourgrocer.com.au">YourGrocer</a>,
-        <a href="http://launchvic.org/">LaunchVic</a>
+        <a href="http://launchvic.org/">LaunchVic</a>,
         and
         <a href="https://openinnovation.com.au/">PWC's Open Innovation Platform</a>.
       </p>
+      <p>Tooling: Rails, Heroku, AWS, Docker, CoffeeScript / ES6, Cordova, Angular, React, React Native, Mocha &amp; Chai, jQuery</p>
     </td>
   </tr>
   <tr>
@@ -126,7 +120,12 @@ I also have professional experience working with:
     <td>
       <h3>Front-end developer <span class="sub">at</span> Adioso</h3>
       <p>Adioso is a flight search engine born and bred in Melbourne, it's the best way to find cheap flights for flexible travellers who don't have fixed dates in mind.</p>
-      <p><a href="http://adioso.com/">Adioso</a>, <a href="http://www.volantio.com/">Volantio</a>, <a href="http://adioso.com/flytoyourfriends/">Fly to your friends</a>
+      <p>
+        <a href="http://adioso.com/">Adioso</a>,
+        <a href="http://www.volantio.com/">Volantio</a>,
+        <a href="http://adioso.com/flytoyourfriends/">Fly to your friends</a>
+      </p>
+      <p>Tooling: Python, Django, Middleman, CoffeeScript / ES6, Backbone, jQuery</p>
     </td>
   </tr>
   <tr>
@@ -135,21 +134,39 @@ I also have professional experience working with:
       <h3>Web developer <span class="sub">at</span> Culture Amp</h3>
       <p>I built out a self-service platform where clients could configure their accounts for Murmur, an employee engagement surveying tool with analytics.</p>
       <p><a href="https://www.cultureamp.com/">CultureAmp</a>
+      <p>Tooling: Rails, MongoDB, AWS, Heroku, CoffeeScript, ES6, Backbone, jQuery</p>
     </td>
   </tr>
   <tr>
     <td width="90">2012 - 2013</td>
     <td>
       <h3>Front end developer <span class="sub">at</span> Inspire9</h3>
-      <p>Building Rails applications with a small super-talented team &amp; learning lots.</p>
-      <p>Highlights are building the <a href="http://inspire9.com/">Inspire9 Community</a> and <a href="http://development.inspire9.com/">Inspire9 Development</a> sites, <a href="https://hellosundaymorning.org/">Hello Sunday Morning</a> and <a href="http://obsurfation.com/">Obsurfation</a>.</p>
+      <p>
+        Building Rails applications with a small super-talented team &amp; learning lots.
+      </p>
+      <p>
+        <a href="http://inspire9.com/">Inspire9 Community</a> ,
+        <a href="http://development.inspire9.com/">Inspire9 Development</a>,
+        <a href="https://hellosundaymorning.org/">Hello Sunday Morning</a>,
+        and
+        <a href="http://obsurfation.com/">Obsurfation</a>.
+      </p>
+      <p>Tooling: Rails, Sass, Cordova, Backbone</p>
     </td>
   </tr>
   <tr>
     <td width="90">2012 - Now</td>
     <td>
-      <h3>Freelance Web developer <span class="sub">at</span> yellowshoe</h3>
-      <p>Various client work on web applications &amp; games as well as contracting to Melbourne based web development agencies.</p>
+      <h3>Freelance Web developer and author <span class="sub">at</span> Yellowshoe</h3>
+      <p>Web applications &amp; games as well as contracting to Melbourne based web development agencies.</p>
+      <p>Clients include
+        <a href="http://sitepoint.com/">SitePoint</a>,
+        <a href="http://www.csiro.au/">CSIRO</a>,
+        <a href="http://loveandmoney.agency/">Love and Money</a>,
+        <a href="http://www.mrpony.com.au/">Mr Pony</a>
+        and
+        <a href="http://www.ie.com.au/">IE</a>
+      </p>
     </td>
   </tr>
   <tr>
@@ -157,8 +174,9 @@ I also have professional experience working with:
     <td>
       <h3>Web developer &amp; designer <span class="sub">at</span> PageUp People</h3>
       <p>Specialised in design and front end development but also developed .NET and Rails applications.</p>
-      <p>Mentored other developers in front-end development and produced <a href="/standards/">front end standards</a>.</p>
+      <p>Mentored other developers in front-end development and produced <a href="http://yellowshoe.com.au/standards/">front end standards</a>.</p>
       <p>Was the lead designer &amp; developer working on a re-design of the recruitment product for the global market.</p>
+      <p>Tooling: .NET, C#, Rails, Sass, Prototype / jQuery</p>
     </td>
   </tr>
   <tr>
