@@ -125,7 +125,7 @@ I also have professional experience working with:
         <a href="http://www.volantio.com/">Volantio</a>,
         <a href="http://adioso.com/flytoyourfriends/">Fly to your friends</a>
       </p>
-      <p>Tooling: Python, Django, Middleman, CoffeeScript / ES6, Backbone, jQuery</p>
+      <p>Tooling: Python, Django, Middleman, CoffeeScript, Backbone, jQuery</p>
     </td>
   </tr>
   <tr>
@@ -134,7 +134,7 @@ I also have professional experience working with:
       <h3>Web developer <span class="sub">at</span> Culture Amp</h3>
       <p>I built out a self-service platform where clients could configure their accounts for Murmur, an employee engagement surveying tool with analytics.</p>
       <p><a href="https://www.cultureamp.com/">CultureAmp</a>
-      <p>Tooling: Rails, MongoDB, AWS, Heroku, CoffeeScript, ES6, Backbone, jQuery</p>
+      <p>Tooling: Rails, MongoDB, AWS, Heroku, CoffeeScript, Backbone, jQuery</p>
     </td>
   </tr>
   <tr>
@@ -145,7 +145,7 @@ I also have professional experience working with:
         Building Rails applications with a small super-talented team &amp; learning lots.
       </p>
       <p>
-        <a href="http://inspire9.com/">Inspire9 Community</a> ,
+        <a href="http://inspire9.com/">Inspire9 Community</a>,
         <a href="http://development.inspire9.com/">Inspire9 Development</a>,
         <a href="https://hellosundaymorning.org/">Hello Sunday Morning</a>,
         and
