@@ -49,7 +49,8 @@ I also have professional experience working with:
 - Canvas &amp; SVG
 - Photoshop, Illustrator & Sketch
 
-## Education
+<h2 class="page-break-before">Education</h2>
+
 <table>
   <tr>
     <td width="90">2004 – 2007</td>
