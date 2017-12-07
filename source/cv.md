@@ -5,7 +5,7 @@ layout: cv.haml
 
 ## Summary
 
-I work on the Web Platform, building rich web applications and mobile apps with JavaScript.  I enjoy teaching others and working collaboratively with talented people.  Having worked with many small to medium sized teams over the years I'm comfortable working across the full stack of multiple platforms(Rails, Django, .NET, PHP and Java), my areas of expertise are Front End Engineering, graphics programming and NodeJS.
+I work on the Web Platform, building rich web applications and mobile apps with JavaScript.  I enjoy teaching others and working collaboratively with talented people.  Having worked with many small to medium sized teams over the years I'm comfortable working across the full stack of multiple platforms(Rails, Django, NodeJS, .NET MVC, PHP and Java), my areas of expertise are Front End Engineering, graphics programming and NodeJS.
 
 I am a consultant based in London and have been working with [Equal Experts](https://www.equalexperts.com/) since 2016.  I have helped [O2 Priority](https://priority.o2.co.uk/) build a high concurrency Node app that can scale to support 20k concurrent users as well as mobile optimised front-ends. I also helped build an analytics platform for  [Informa](https://agribusinessintelligence.informa.com/) clients to explore and visualise agricultural and farming data.  Another interesting piece of work was developing a React based image tagging and annotation platform for [lvl5](https://lvl5.ai/) which is used to train machines to see and understand traffic imagery.
 

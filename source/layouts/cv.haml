@@ -6,7 +6,22 @@
     %title= current_page.data.title || "Front end web development by Mark Brown. HTML, CSS &amp; JavaScript"
     %meta{ name: "description", content: current_page.data.description || "Front end web development by Mark Brown. HTML, CSS &amp; JavaScript" }
     = favicon_tag 'favicon.ico'
-    = stylesheet_link_tag "application"
+    = stylesheet_link_tag "application", media: 'all'
+    :plain
+      <style media="print">
+      body {
+        background: #fff;
+      }
+      #page {
+        margin: 0 auto;
+        padding: 30px;
+        max-width: 100%;
+        box-shadow: none;
+      }
+      #nav {
+        display: none;
+      }
+      </style>
   %body{ class: page_classes }
     #page
       = link_to image_tag('me.jpg', id: 'face'), '/'
