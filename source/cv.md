@@ -5,13 +5,15 @@ layout: cv.haml
 
 ## Summary
 
-I'm passionate about building rich web applications and mobile apps with JavaScript.  I enjoy teaching others and working collaboratively with talented people.  Having worked with many small to medium sized teams over the years I'm comfortable working across the full stack of multiple platforms(Rails, Django, .NET and PHP), my area of expertise is the front-end.
+I work on the Web Platform, building rich web applications and mobile apps with JavaScript.  I enjoy teaching others and working collaboratively with talented people.  Having worked with many small to medium sized teams over the years I'm comfortable working across the full stack of multiple platforms(Rails, Django, .NET, PHP and Java), my areas of expertise are Front End Engineering, graphics programming and NodeJS.
 
-My last role was with [Inspire9 Development](http://development.inspire9.com/), a development agency that worked with early-stage startups and bootstrapped their own app for managing co-working spaces called [Tribes](http://www.pageuppeople.com/).  I also worked with [Adioso](http://www.adioso.com/) for two years and [PageUp People](http://www.pageuppeople.com/) for four years - the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
+I am a consultant based in London and have been working with [Equal Experts](https://www.equalexperts.com/) since 2016.  I have helped [O2 Priority](https://priority.o2.co.uk/) build a high concurrency Node app that can scale to support 20k concurrent users as well as mobile optimised front-ends. I also helped build an analytics platform for  [Informa](https://agribusinessintelligence.informa.com/) clients to explore and visualise agricultural and farming data.  Another interesting piece of work was developing a React based image tagging and annotation platform for [lvl5](https://lvl5.ai/) which is used to train machines to see and understand traffic imagery.
 
-I build working software with simple readable code that's well tested.
+In Melbourne, Australia I worked for [Inspire9 Development](http://development.inspire9.com/), a development agency that worked with early-stage startups and helped develop [Tribes](https://tribesapp.com) - an app for managing co-working spaces.  I also worked with [Adioso](http://www.adioso.com/) for two years and [PageUp People](http://www.pageuppeople.com/) for four years - the leading Australian talent management software provider.  I have been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
 
 I'm also an author of Sitepoint's [JavaScript channel](https://www.sitepoint.com/author/mbrown/).
+
+I build working software with clean readable code that's well tested.
 
 ## Personal Attributes
 
@@ -25,7 +27,7 @@ I'm also an author of Sitepoint's [JavaScript channel](https://www.sitepoint.com
 High level of competency and experience in:
 
 - HTML, CSS &amp; JavaScript: The three pillars of the web
-- Full stack development with Ruby on Rails
+- Full stack development with Ruby on Rails & Node.js
 - Thorough knowledge of important JavaScript libraries including:
   - Backbone, Angular, React
   - jQuery, Lodash, D3
@@ -34,19 +36,19 @@ High level of competency and experience in:
 - Accessibility &amp; browser compatibility
 - Responsive mobile web apps, hybrid and native approaches
 - Static site generators
+- Build tools and module bundlers
+- Canvas &amp; SVG
 
 I also have professional experience working with:
 
-- Build tools and module bundlers
 - Continuous Integration tools
 - Heroku, AWS, Google Cloud Platform
 - Docker
-- Node.js
 - Django &amp; Python
 - .NET
 - PHP
+- Java
 - SQL
-- Canvas &amp; SVG
 - Photoshop, Illustrator & Sketch
 
 <h2 class="page-break-before">Education</h2>
@@ -89,15 +91,23 @@ I also have professional experience working with:
 ## Employment History
 
 <table>
-  <!-- <tr>
+  <tr>
     <td width="90">2016 - now</td>
     <td>
-      <h3>Front-end developer <span class="sub">with</span> Equal Experts</h3>
+      <h3>Front-End Engineer <span class="sub">with</span> Equal Experts</h3>
       <p>
-        Contract work with .
+        With <a href="https://priority.o2.co.uk/">O2 Priority</a> I built a high performance Node app and React powered CMS.  I also optimised the mobile experience and built a component library to keep things tidy.
       </p>
+      <p>
+        For <a href="https://agribusinessintelligence.informa.com/">Informa Agribusiness Intelligence</a> I worked on an Aurelia app to search, filter and output data visualisations for agricultural insights.
+      </p>
+      <p>
+        <a href="https://lvl5.ai/">lvl5.ai</a> based in San-fransisco, asked me to develop an image tagging app for them with React.
+      </p>
+      <p>I was also involved with interviewing and bringing new engineers into the fold at Equal Experts</p>
+      <p>Tooling: NodeJS, AWS, Nginx, React, Vue, ES6, Aurelia, D3, Sass, Mocha, Enzyme &amp; Sinon</p>
     </td>
-  </tr> -->
+  </tr>
   <tr>
     <td width="90">2015 - 2016</td>
     <td>
