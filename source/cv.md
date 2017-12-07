@@ -102,9 +102,9 @@ I also have professional experience working with:
         For <a href="https://agribusinessintelligence.informa.com/">Informa Agribusiness Intelligence</a> I worked on an Aurelia app, adding search & filter capabilities and data visualisations for agricultural insights.
       </p>
       <p>
-        <a href="https://lvl5.ai/">lvl5.ai</a> based in San-fransisco asked me to develop an image tagging and annotation tool in React.
+        <a href="https://lvl5.ai/">lvl5.ai</a> based in San Francisco asked me to develop an image tagging and annotation tool in React.
       </p>
-      <p>I was also involved with interviewing and bringing new engineers into the fold at Equal Experts</p>
+      <p>I was also involved with interviewing and bringing new engineers into the fold at Equal Experts.</p>
       <p>Tooling: NodeJS, AWS, Nginx, MongoDB, React, Vue, ES6, Aurelia, D3, Sass, Mocha, Enzyme &amp; Sinon</p>
     </td>
   </tr>
