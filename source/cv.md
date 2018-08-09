@@ -7,7 +7,7 @@ layout: cv.haml
 
 I work on the Web Platform, building rich web applications and mobile apps with JavaScript.  I enjoy teaching others and working collaboratively with talented people.  Having worked with many small to medium sized teams over the years I'm comfortable working across the full stack of multiple platforms(Rails, Django, NodeJS, .NET MVC, PHP and Java), my areas of expertise are front-end engineering, graphics programming and NodeJS.
 
-I am a based in London and have been working with agile consultancy [Equal Experts](https://www.equalexperts.com/) since 2016.  There I have helped [O2 Priority](https://priority.o2.co.uk/) build a high performance Node app that can scale to support 20k concurrent users as well as optimising the mobile-web experience. I helped build an analytics platform for  [Informa](https://agribusinessintelligence.informa.com/) clients to explore and visualise agricultural data.  Another interesting piece of work I picked up was developing a tool for tagging and annotating traffic images for [lvl5](https://lvl5.ai/) for application in self-driving cars.
+I was based in London for two years and worked with the agile consultancy [Equal Experts](https://www.equalexperts.com/).  There I helped the [John Lewis](https://www.johnlewis.com/) team develop a component library and design system in React.  With [O2 Priority](https://priority.o2.co.uk/) I helped build a high performance Node app that scaled up to support 20k concurrent users as well as optimising the mobile-web experience. I helped build an analytics platform for  [Informa](https://agribusinessintelligence.informa.com/) clients to explore and visualise agricultural data.  Another interesting piece of work I picked up was developing a tool for tagging and annotating traffic images for [lvl5](https://lvl5.ai/) for application in self-driving cars.
 
 In Melbourne, Australia I worked for [Inspire9 Development](http://development.inspire9.com/), a development agency that worked with early-stage startups and helped them develop [Tribes](https://tribesapp.com) - an app for managing co-working spaces.  I also worked with [Adioso](http://www.adioso.com/) for two years and [PageUp People](http://www.pageuppeople.com/) for four years - the leading Australian talent management software provider.  I have now been working on the web professionally for over <script>document.write(new Date().getFullYear() - 2006)</script> years.
 
@@ -95,6 +95,9 @@ I also have professional experience working with:
     <td width="90">2016 - now</td>
     <td>
       <h3>Front-End Engineer <span class="sub">with</span> Equal Experts</h3>
+      <p>
+        The team at <a href="https://www.johnlewis.com/">John Lewis</a> were busy breaking up a big online store into many, I helped them develop their component library and design system so all teams could build on the same base.
+      </p>
       <p>
         With <a href="https://priority.o2.co.uk/">O2 Priority</a> I built a high performance Node app and CMS in React.  I also optimised their mobile experience and built a component library to help keep things maintainable.
       </p>

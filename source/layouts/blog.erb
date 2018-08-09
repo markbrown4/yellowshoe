@@ -10,7 +10,7 @@
 <%= stylesheet_link_tag "application" %>
 <body class"<%= page_classes %>">
 <div id="wrap">
-  <%= link_to image_tag('boot.png', id: 'boot'), '/' %>
+  <%= link_to image_tag('boot.png', id: 'boot', width: 35, height: 50), '/' %>
   <h1>Mark Brown</h1>
   <%= partial 'nav' %>
   <div id="main">
@@ -26,4 +26,3 @@
 <%= javascript_include_tag "prism" %>
 </body>
 </html>
-

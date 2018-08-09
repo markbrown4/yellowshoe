@@ -1,15 +1,21 @@
 #map.frame
-%p.intro I am extremely grateful for the opportunity to see the world, it is one of the greatest privileges.
+
 :plain
   <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAvSRok3TxWdr9hF2EH8SFAf59UmjTuK6A&sensor=true"></script>
   <script>
-  var m = document.getElementById("map");
-  var map = new google.maps.Map(m, {
+  var defaults = {
     zoom: 2,
     disableDefaultUI: true,
-    center: new google.maps.LatLng(10, 48),
+    center: new google.maps.LatLng(20, 48),
     mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  var europe = Object.assign({}, options, {
+    zoom: 3,
+    center: new google.maps.LatLng(54.5, 15),
   });
+  var options = window.location.hash == '#europe' ? europe : defaults
+  var m = document.getElementById("map");
+  var map = new google.maps.Map(m, options);
   var locations = [{
     title: 'Melbourne',
     pos: [-37.8131869, 144.9629796]
@@ -243,7 +249,7 @@
     pos: [51.361047, 1.024256]
   }, {
     title: 'Cotswolds',
-    pos: [51.406804, -3.467502]
+    pos: [51.768820, -2.126519]
   }, {
     title: 'Manchester',
     pos: [53.480759, -2.242631]
@@ -275,14 +281,41 @@
     title: 'Dover',
     pos: [51.127876, 1.313403]
   }, {
+    title: 'Newquay',
+    pos: [50.415081, -5.075705]
+  }, {
+    title: 'Snowdonia',
+    pos: [52.918011, -3.891220]
+  }, {
+    title: 'Bath',
+    pos: [51.380366, -2.361524]
+  }, {
+    title: 'Penzance',
+    pos: [50.115390, -5.536897]
+  }, {
     title: 'Edinburgh',
     pos: [55.953252, -3.188267]
   }, {
     title: 'Glasgow',
     pos: [55.864237, -4.251806]
   }, {
+    title: 'Loch Lomond',
+    pos: [56.111368, -4.628860]
+  }, {
     title: 'Dublin',
     pos: [53.349805, -6.260310]
+  }, {
+    title: 'Cork',
+    pos: [51.896892, -8.486316]
+  }, {
+    title: 'Cliffs of Moher',
+    pos: [52.971880, -9.426510]
+  }, {
+    title: 'Dingle',
+    pos: [52.140939, -10.264014]
+  }, {
+    title: 'Galway',
+    pos: [53.270668, -9.056791]
   }, {
     title: 'Brussels',
     pos: [50.850346, 4.351721]
@@ -356,6 +389,24 @@
     title: 'Barcelona',
     pos: [41.385064, 2.173403]
   }, {
+    title: 'Bilbao',
+    pos: [43.263013, -2.934985]
+  }, {
+    title: 'San Sebastian',
+    pos: [43.318334, -1.981231]
+  }, {
+    title: 'Madrid',
+    pos: [40.416775, -3.703790]
+  }, {
+    title: 'Cordoba',
+    pos: [37.888175, -4.779383]
+  }, {
+    title: 'Seville',
+    pos: [37.389092, -5.984459]
+  }, {
+    title: 'Granada',
+    pos: [37.177336, -3.598557]
+  }, {
     title: 'Lisbon',
     pos: [38.722252, -9.139337]
   }, {
@@ -373,6 +424,156 @@
   }, {
     title: 'Sibiu',
     pos: [45.798327, 24.125583]
+  }, {
+    title: 'Casablanca',
+    pos: [33.573110, ]
+  }, {
+    title: 'Fes',
+    pos: [34.018125, -5.007845]
+  }, {
+    title: 'Todra Gorge',
+    pos: [31.523500, -5.527647]
+  }, {
+    title: 'Marrakech',
+    pos: [31.629472, -7.981084]
+  }, {
+    title: 'Merzouga',
+    pos: [31.080168, -4.013361]
+  }, {
+    title: 'Keflavik',
+    pos: [63.999755, -22.558272]
+  }, {
+    title: 'Reykyavik',
+    pos: [64.126521, -21.817439]
+  }, {
+    title: 'Ólafsvík',
+    pos: [64.896048, -23.706026]
+  }, {
+    title: 'Gulfoss',
+    pos: [64.327072, -20.119948]
+  }, {
+    title: 'Tallinn',
+    pos: [59.430885, 24.740769]
+  }, {
+    title: 'Tartu',
+    pos: [58.360697, 26.727757]
+  }, {
+    title: 'Viljandi',
+    pos: [58.360563, 25.580523]
+  }, {
+    title: 'Sigulda',
+    pos: [57.149563, 24.860333]
+  }, {
+    title: 'Riga',
+    pos: [56.949649, 24.105186]
+  }, {
+    title: 'Hill of Crosses',
+    pos: [56.015278, 23.416668]
+  }, {
+    title: 'Klaipeda',
+    pos: [55.703295, 21.144280]
+  }, {
+    title: 'Kaunas',
+    pos: [54.898521, 23.903597]
+  }, {
+    title: 'Vilnius',
+    pos: [54.687156, 25.279651]
+  }, {
+    title: 'Prague',
+    pos: [50.075538, 14.437800]
+  }, {
+    title: 'Krakow',
+    pos: [50.064650, 19.944980]
+  }, {
+    title: 'Ljubljana',
+    pos: [46.056947, 14.505751]
+  }, {
+    title: 'Bled',
+    pos: [46.368327, 14.114580]
+  }, {
+    title: 'Zagreb',
+    pos: [45.815011, 15.981919]
+  }, {
+    title: 'Plitvice',
+    pos: [44.865397, 15.582012]
+  }, {
+    title: 'Split',
+    pos: [43.508132, 16.440193]
+  }, {
+    title: 'Dubrovnik',
+    pos: [42.650661, 18.094424]
+  }, {
+    title: 'Kotor',
+    pos: [42.424662, 18.771234]
+  }, {
+    title: 'Tirana',
+    pos: [41.327546, 19.818698]
+  }, {
+    title: 'Athens',
+    pos: [37.983810, 23.727539]
+  }, {
+    title: 'Milos',
+    pos: [36.691446, 24.393566]
+  }, {
+    title: 'Santorini',
+    pos: [36.393156, 25.461509]
+  }, {
+    title: 'Kos',
+    pos: [36.8915, 27.2877]
+  }, {
+    title: 'Bodrum',
+    pos: [37.0344, 27.4305]
+  }, {
+    title: 'Selcuk',
+    pos: [37.9508, 27.3700]
+  }, {
+    title: 'Pamukkale',
+    pos: [37.9137, 29.1187]
+  }, {
+    title: 'Fethiye',
+    pos: [36.6592, 29.1263]
+  }, {
+    title: 'Antalya',
+    pos: [36.8969, 30.7133]
+  }, {
+    title: 'Konya',
+    pos: [37.8746, 32.4932]
+  }, {
+    title: 'Cappadocia',
+    pos: [38.6689, 34.8368]
+  }, {
+    title: 'Istanbul',
+    pos: [41.0082, 28.9784]
+  }, {
+    title: 'Gallipoli',
+    pos: [40.0559, 17.9926]
+  }, {
+    title: 'St Petersburg',
+    pos: [59.9343, 30.3351]
+  }, {
+    title: 'Moscow',
+    pos: [55.7558, 37.6173]
+  }, {
+    title: 'Irkutsk',
+    pos: [52.2870, 104.3050]
+  }, {
+    title: 'Ulan Ude',
+    pos: [51.8239, 107.6073]
+  }, {
+    title: 'Ulan Bator',
+    pos: [47.8864, 106.9057]
+  }, {
+    title: 'Hong Kong',
+    pos: [22.3964, 114.1095]
+  }, {
+    title: 'Sandakan',
+    pos: [5.8394, 118.1172]
+  }, {
+    title: 'Semporna',
+    pos: [4.4794, 118.6115]
+  }, {
+    title: 'Mabul',
+    pos: [4.2457, 118.6316]
   }];
 
   for (var i=0, ii=locations.length; i<ii; i++) {
