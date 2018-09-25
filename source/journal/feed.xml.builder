@@ -1,10 +1,10 @@
 xml.instruct!
-xml.feed "xmlns" => "http://www.w3.org/2005/Atom" do
+xml.feed "xmlns" => "https://www.w3.org/2005/Atom" do
   xml.title "Introspection on work, life and the web."
   xml.subtitle "I write about things that I'm interested in."
-  xml.id "http://www.yellowshoe.com.au/journal"
-  xml.link "href" => "http://www.yellowshoe.com.au/journal"
-  xml.link "href" => "http://www.yellowshoe.com.au/journal/feed.xml", "rel" => "self"
+  xml.id "https://yellowshoe.com.au/journal"
+  xml.link "href" => "https://yellowshoe.com.au/journal"
+  xml.link "href" => "https://yellowshoe.com.au/journal/feed.xml", "rel" => "self"
   xml.updated blog.articles.first.date.to_time.iso8601
   xml.author { xml.name "Mark Brown" }
 
