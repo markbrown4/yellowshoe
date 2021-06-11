@@ -169,7 +169,7 @@ var game = {
         var point = game.path.getPointAtLength(start + (obj.state * distance));
         dx = point.x-game.x;
         dy = point.y-game.y;
-        var rotation = 0-(Math.atan2(dx,dy) - game.halfPi); 
+        var rotation = 0-(Math.atan2(dx,dy) - game.halfPi);
         if (dx == 0 && dy == 0) return; /* same point */
         game.rotation = rotation;
         game.paintCar(point);

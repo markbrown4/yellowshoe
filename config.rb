@@ -1,14 +1,14 @@
-
-# activate :livereload
-
-set :css_dir, 'stylesheets'
-set :js_dir, 'javascripts'
-set :images_dir, 'images'
+# Activate and configure extensions
+# https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 set :markdown_engine, :redcarpet
 set :markdown,
   :fenced_code_blocks => true,
   :lax_html_blocks => true
+
+activate :autoprefixer do |prefix|
+  prefix.browsers = "last 2 versions"
+end
 
 activate :blog do |blog|
   blog.prefix = 'journal'
@@ -23,7 +23,6 @@ end
 
 activate :directory_indexes
 activate :relative_assets
-
 page '/journal/feed.xml', layout: false
 
 configure :build do
