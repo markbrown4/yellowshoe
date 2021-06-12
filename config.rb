@@ -1,5 +1,3 @@
-# Activate and configure extensions
-# https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
 set :markdown_engine, :redcarpet
 set :markdown,
@@ -27,13 +25,9 @@ page '/journal/feed.xml', layout: false
 
 configure :build do
   set :relative_links, true
-  # activate :minify_css
-  # activate :minify_javascript
-  # activate :asset_hash
 end
 
 helpers do
-
   def intro(article)
     article.render(:layout => false, :keep_separator => true).split('<p>READMORE</p>')[0]
   end
@@ -41,5 +35,18 @@ helpers do
   def body(article)
     article.render(:layout => false, :keep_separator => true).split('<p>READMORE</p>')[1]
   end
-
 end
+
+class StaticExtension < Middleman::Extension
+  def initialize(app, options_hash={}, &block)
+    super
+  end
+
+  def after_build
+    FileUtils.cp_r 'static/.', 'build'
+  end
+end
+
+Middleman::Extensions.register(:static_extension, StaticExtension)
+
+activate :static_extension
