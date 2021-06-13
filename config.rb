@@ -24,7 +24,7 @@ activate :relative_assets
 page '/journal/feed.xml', layout: false
 
 configure :build do
-  set :relative_links, true
+  # set :relative_links, true
 end
 
 helpers do

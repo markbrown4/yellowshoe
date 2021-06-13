@@ -17,8 +17,13 @@
     <div id="content">
       <h1><%= current_article.title %></h1>
       <p><time><%= current_article.date.strftime('%b %d, %Y') %></time></p>
-<div class="intro"><%= intro current_article %></div>
-<%= body current_article %>
+      <div class="intro"><%= intro current_article %></div>
+      <%= body current_article %>
+      <% if current_article.previous_article %>
+        <p class="pagination">
+          <%= link_to "&larr; #{current_article.previous_article.title} ", current_article.previous_article, class: 'prev' %>
+        </p>
+      <% end %>
     </div>
     <%= partial 'journal/sidebar' %>
   </div>
