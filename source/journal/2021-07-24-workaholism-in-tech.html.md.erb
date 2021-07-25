@@ -33,11 +33,10 @@ I’ve been thinking about techniques I can use to spot warning signs in myself 
 
 You can easily find times you’ve committed changes on certain days and times.  Which days and times are problematic? That’ll depend on you and how you want to work.  For me, it’s not a good sign when I’m working on Saturdays, Sundays, before 9am, and after 6pm.  Working remotely it’s easier to not stop.
 
- ```
+```bash
  git log --author=markbrown4 --pretty='format:%h %cd' | grep -E "(Sat|Sun)"  
-
- git log --author=markbrown4 --pretty='format:%h %cd' | grep -E "(00|01|02|03|04|05|06|07|08|18|19|20|21|22|23|24):[0-9][0-9]:[0-9][0-9]" 
-``` 
+ git log --author=markbrown4 --pretty='format:%h %cd' | grep -E "(00|01|02|03|04|05|06|07|08|18|19|20|21|22|23|24):[0-9][0-9]:[0-9][0-9]"
+```
 
  Next up, **Slack** .
 
