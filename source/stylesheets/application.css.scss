@@ -105,10 +105,15 @@ tr:last-child td { border: none }
   text-align: left;
   background: rgba(255,255,255,.4);
   padding: 60px 40px;
-  border-top: 1px solid #d1d9db;
-  border-bottom: 1px solid #d1d9db;
+  border: 1px solid #d1d9db;
+  border-color: rgba(#d1d9db, .3) rgba(#d1d9db, .4) rgba(#d1d9db, .6);
+  border-radius: 5px;
+  box-shadow: 0 20px 60px rgba(#000, 0.02);
   overflow: hidden;
   zoom: 1;
+}
+.main {
+  text-align: left;
 }
 #nav {
   list-style: none;
@@ -138,7 +143,7 @@ div.intro p {
   line-height: 26px;
 }
 div.intro {
-  border-bottom: 2px solid rgba(#d1d9db, .5);
+  border-bottom: 2px solid rgba(#d1d9db, .3);
   margin-bottom: 1em;
 }
 .intro p:first-child:first-letter {
@@ -184,7 +189,7 @@ div.intro {
   float: right;
   padding-left: 40px;
   width: 100%;
-  max-width: 589px;
+  max-width: 588px;
 }
 .footer { margin-bottom: 40px }
 
@@ -192,7 +197,7 @@ div.intro {
 .frame {
   background: #fff;
   padding: 7px;
-  box-shadow: 0 1px 0 rgba(127, 121, 108, 0.3), 0 1px 2px rgba(127, 121, 108, 0.2);
+  box-shadow: 0 1px 0 rgba(#d1d9db, 0.3), 0 1px 2px rgba(#d1d9db, 0.2);
   position: relative;
   margin-bottom: 1em;
   border-radius: 2px;
@@ -352,11 +357,11 @@ article {
   margin: 0 auto 50px;
   padding: 70px 70px 150px;
   background: #fff;
-  box-shadow: 0 3px 6px rgba(#000, .1);
+  box-shadow: 0 1px 0 rgba(#d1d9db, 0.3), 0 1px 2px rgba(#d1d9db, 0.2);
   text-align: center;
 }
 #page h2 {
-  border-bottom: 2px solid #555
+  border-bottom: 2px solid rgba(#d1d9db, 0.5);
 }
 #page #main { border: none; padding: 0 }
 #links { list-style: none; margin: 1em 0; padding: 0 }
