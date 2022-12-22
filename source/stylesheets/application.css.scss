@@ -416,7 +416,7 @@ article {
   }
 }
 @media (min-device-width:1024px) and (max-width:480px), (max-device-width:480px) {
-  q span { padding: 10px }
+  q span { padding: 20px }
   h1 { margin: 0 }
   q:before, q:after { content: "" }
   .frame:first-child { margin-top: 0 }
